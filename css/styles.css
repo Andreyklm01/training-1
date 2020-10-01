@@ -191,14 +191,13 @@ img {
   padding-bottom: 94px;
 }
 
-/* .icon-container {
+.icon-container {
   max-width: 270px;
   max-height: 120px;
   padding: 25px 100px;
   margin-bottom: 30px;
   background-color: var(--background-secondary-color);
-} */
-
+}
 .features-list {
   display: flex;
 }
@@ -464,11 +463,27 @@ img {
   margin-right: 30px;
 
   background-color: var(--additional-color);
+<<<<<<< HEAD
 }
 .project__text_border {
+=======
+>>>>>>> 4768c16365467bddda7fb3cf7d1f557ed5810cfe
   border: 1px solid #eeeeee;
   border-top: none;
   padding-bottom: 20px;
+}
+
+.project-item:hover,
+.project-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.project-item > img {
+  display: block;
+  width: 370px;
+  height: 294px;
+  object-fit: contain;
 }
 
 .project-item:hover,
