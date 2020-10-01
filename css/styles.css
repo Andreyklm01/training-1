@@ -218,16 +218,16 @@ img {
 }
 
 .features-item:nth-child(1)::before {
-  background-image: url(/images/features/antenna.svg);
+  background-image: url(../images/features/antenna.svg);
 }
 .features-item:nth-child(2)::before {
-  background-image: url(/images/features/clock.svg);
+  background-image: url(../images/features/clock.svg);
 }
 .features-item:nth-child(3)::before {
-  background-image: url(/images/features/diagram.svg);
+  background-image: url(../images/features/diagram.svg);
 }
 .features-item:nth-child(4)::before {
-  background-image: url(/images/features/astronaut.svg);
+  background-image: url(../images/features/astronaut.svg);
 }
 
 .features-title {
@@ -463,11 +463,8 @@ img {
   margin-right: 30px;
 
   background-color: var(--additional-color);
-<<<<<<< HEAD
 }
 .project__text_border {
-=======
->>>>>>> 4768c16365467bddda7fb3cf7d1f557ed5810cfe
   border: 1px solid #eeeeee;
   border-top: none;
   padding-bottom: 20px;
